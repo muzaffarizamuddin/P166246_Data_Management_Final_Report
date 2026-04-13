@@ -1,0 +1,3 @@
+SELECT DISTINCT city 
+FROM malaysia_aqi_data_combined_3
+ORDER BY city ASC;

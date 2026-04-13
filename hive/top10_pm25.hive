@@ -1,0 +1,11 @@
+SELECT 
+    city, 
+    dat_recorded, 
+    max 
+FROM 
+    malaysia_aqi_data_combined_3
+WHERE 
+    type = 'pm25' --change to no2, pm10 and co
+ORDER BY 
+    max DESC 
+LIMIT 10;

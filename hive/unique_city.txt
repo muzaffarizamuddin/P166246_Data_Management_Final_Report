@@ -1,0 +1,51 @@
+city
+Alor Setar
+Alor-Gajah
+Alor-Setar
+Bakar-Arang
+Balik-Pulau
+Balok-Baru
+Bandaraya-Melaka
+Banting
+Batu-Muda
+Batu-Pahat
+Bukit-Rambai
+Cheras
+George Town
+Indera-Mahkota
+Ipoh
+Jerantut
+Johor Bahru
+Kangar
+Kemaman
+Kg.-Air Putih
+Klang
+Kluang
+Kota Bharu
+Kota-Bharu
+Kota-Kinabalu
+Kota-Tinggi
+Kuala Lumpur
+Kuala-Selangor
+Kuala-Terengganu
+Kuantan
+Kuching
+Langkawi
+Larkin-Lama
+Malacca
+Minden
+Miri
+Nilai
+Paka
+Pasir-Gudang
+Pelabuhan-Kelang
+Pengerang
+Perai
+Petaling-Jaya
+Port-Dickson
+Putrajaya
+Rompin
+Segamat
+Seremban
+Shah-Alam
+Sri-Aman
