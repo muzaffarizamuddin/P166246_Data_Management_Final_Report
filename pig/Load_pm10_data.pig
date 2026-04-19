@@ -5,11 +5,11 @@ AS (
     country:chararray,
     city:chararray,
     type:chararray,
-    count:chararray,
-    min:chararray,
-    max:chararray,
-    median:chararray,
-    variance:chararray
+    count:float,
+    min:float,
+    max:float,
+    median:float,
+    variance:float
 );
 
 -- 2. Filter for pm25 
