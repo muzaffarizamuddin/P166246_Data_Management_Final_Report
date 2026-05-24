@@ -18,6 +18,8 @@ This study successfully established a robust, physically interpretable predictiv
 
 <img width="541" height="164" alt="image" src="https://github.com/user-attachments/assets/146627a4-47e2-46e9-8529-2f7684e0bf9d" />
 
-The fitted multiple linear regression forecast is plotted against actual values and is show below:
+The fitted multiple linear regression forecast is plotted against actual values as shown below:
 
 <img width="1484" height="1284" alt="image" src="https://github.com/user-attachments/assets/a5be4037-9b62-4c5a-9b70-66aa0cbe3ea0" />
+
+This model calculates the daily peak pollution ($PM_{2.5}$) across Peninsular Malaysia by starting with a fixed atmospheric background concentration of $87.78\ \mu\text{g/m}^3$ and adjusting it based on five regional conditions. Active fires in Sumatra have an immediate, major compounding impact by blowing smoke directly across the Malacca Strait ($\beta = +0.28$), while direct emissions within Peninsular Malaysia register a delayed overnight spike ($\beta = +2.64$). Concurrent fire activity in Sabah and Sarawak serves as a strong marker for severe macro-regional droughts and high-pressure stagnation that trap local pollution ($\beta = +3.33$). Conversely, localized precipitation functions as a vital atmospheric cleanser, physically scrubbing out and dropping the pollution ceiling by roughly $0.82\ \mu\text{g/m}^3$ for every millimeter of rain ($\beta = -0.82$). Finally, active fires in Kalimantan carry a slight negative relationship ($\beta = -0.06$) because the prevailing monsoon winds push their smoke plumes northward into the South China Sea and completely away from mainland Malaysia, serving as a clean boundary marker for the model.
