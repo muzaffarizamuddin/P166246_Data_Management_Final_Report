@@ -10,7 +10,10 @@ How To Use:
     https://colab.research.google.com/github/muzaffarizamuddin/P166246_Data_Management_Final_Report/blob/main/historical_AQI_data_combine.ipynb
 2. Go to this website for a quick view of the data to be studied:
     https://muzaffarizamuddin.github.io/P166246_Data_Management_Final_Report/
-3. Data is acquired from https://aqicn.org/city/malaysia/ where the data source is stated to be from DOE Malaysia.
+3. Data is acquired from a few sources:
+       + Air quality data is acquired from https://aqicn.org/city/malaysia/ where the data source is stated to be from DOE Malaysia.
+       + Hotspot data is acquired from https://asmc.asean.org/asmc-haze-hotspot-daily-new#Hotspot where the data originates from the Visible Infrared Imaging Radiometer Suite (VIIRS) instrument aboard the NOAA-20 satellite.
+       + Rain and wind data is acquired from open mateo https://open-meteo.com/en/docs/historical-weather-api
 
 **Key Findings**
 
