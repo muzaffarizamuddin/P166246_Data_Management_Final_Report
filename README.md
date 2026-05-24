@@ -1,4 +1,4 @@
-#Readme / Introduction
+**Introduction**
 This is a study regarding air quality levels during 2025 August to October Haze season
 Below snapshot shows 1 of the peaks during this season of Haze where west coast cities saw poor Air Quality reading.
 
@@ -11,18 +11,19 @@ How To Use:
     https://muzaffarizamuddin.github.io/P166246_Data_Management_Final_Report/
 3. Data is acquired from https://aqicn.org/city/malaysia/ where the data source is stated to be from DOE Malaysia.
 
-##Key Findings
+**Key Findings**
 
 This study successfully established a robust, physically interpretable predictive framework for ground-level particulate matter ($\text{PM}_{2.5}$) accumulation across Peninsular Malaysia during the critical transboundary haze window of August to October 2025. Based on empirical weather data (Rain and Wind) aggregated across 46 Peninsular monitoring stations and regional satellite hotspot counts in Sumatra, Kalimantan and Thailand, a predictive equation for maximum regional pollution is formulated as follows:
 
 $$
-\begin{aligned}
-\text{Max\_PM}_{2.5} = 87.7837 &+ 0.2752(\text{Sumatra\_Lag0}) \\
-&+ 3.3310(\text{Sabah\ Sarawak\_Lag0}) \\
-&+ 2.6373(\text{Peninsular\ Malaysia\_Lag1}) \\
-&- 0.8214(\text{Rain\_mm}) \\
-&- 0.0558(\text{Kalimantan\_Lag0})
-\end{aligned}
+\begin{array}{ll}
+\text{Max PM}_{2.5} = & 87.7837 \\
+& + \; 0.2752 \times (\text{Sumatra\_Lag0}) \\
+& + \; 3.3310 \times (\text{Sabah\ Sarawak\_Lag0}) \\
+& + \; 2.6373 \times (\text{Peninsular\ Malaysia\_Lag1}) \\
+& - \; 0.8214 \times (\text{Rain\_mm}) \\
+& - \; 0.0558 \times (\text{Kalimantan\_Lag0})
+\end{array}
 $$
 
 The fitted multiple linear regression forecast is plotted against actual values and is show below:
