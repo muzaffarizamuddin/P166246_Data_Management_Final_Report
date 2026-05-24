@@ -19,7 +19,7 @@ How To Use:
 
 **Key Findings**
 
-This study successfully established a robust, physically interpretable predictive framework for ground-level particulate matter ($\text{PM}_{2.5}$) accumulation across Peninsular Malaysia during the critical transboundary haze window of August to October 2025. Based on empirical weather data (Rain and Wind) aggregated across 46 Peninsular monitoring stations and regional satellite hotspot counts in Sumatra, Kalimantan and Thailand, a predictive equation for maximum regional pollution is formulated as follows:
+This study successfully established a physically interpretable predictive framework for ground-level particulate matter ($\text{PM}_{2.5}$) accumulation across Peninsular Malaysia during the critical transboundary haze window of August to October 2025. Based on empirical weather data (Rain and Wind) aggregated across 46 Peninsular monitoring stations and regional satellite hotspot counts in Sumatra, Kalimantan and Thailand, a predictive equation for maximum regional pollution is formulated as follows:
 
 <img width="541" height="164" alt="image" src="https://github.com/user-attachments/assets/146627a4-47e2-46e9-8529-2f7684e0bf9d" />
 
