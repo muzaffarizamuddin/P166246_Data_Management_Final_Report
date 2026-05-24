@@ -10,10 +10,12 @@ How To Use:
     https://colab.research.google.com/github/muzaffarizamuddin/P166246_Data_Management_Final_Report/blob/main/historical_AQI_data_combine.ipynb
 2. Go to this website for a quick view of the data to be studied:
     https://muzaffarizamuddin.github.io/P166246_Data_Management_Final_Report/
-3. Data is acquired from a few sources:
-       + Air quality data is acquired from https://aqicn.org/city/malaysia/ where the data source is stated to be from DOE Malaysia.
-       + Hotspot data is acquired from https://asmc.asean.org/asmc-haze-hotspot-daily-new#Hotspot where the data originates from the Visible Infrared Imaging Radiometer Suite (VIIRS) instrument aboard the NOAA-20 satellite.
-       + Rain and wind data is acquired from open mateo https://open-meteo.com/en/docs/historical-weather-api
+3. Data is acquired across three primary operational dimensions as listed below. each dataset does give an API for current day hotspot, wind and rain enabling a warning system model to be deployed:
+
+* **Air Quality Data:** Sourced directly from the [World Air Quality Index Project (WAQI)](https://aqicn.org/city/malaysia/), which aggregates official ground-level telemetry provided by the Department of Environment (DOE) Malaysia.
+* **Wildfire Hotspot Data:** Extracted from the [ASEAN Specialised Meteorological Centre (ASMC)](https://asmc.asean.org/asmc-haze-hotspot-daily-new#Hotspot). This dataset captures daily biomass burning activity via the Visible Infrared Imaging Radiometer Suite (VIIRS) instrument aboard the NOAA-20 satellite.
+* **Meteorological Parameters:** Acquired from the [Open-Meteo Historical Weather Archive API](https://open-meteo.com/en/docs/historical-weather-api) to provide gridded reanalysis data for daily precipitation (`Rain_mm`) and directional wind vectors (`Wind_U`, `Wind_V`) across the study region.
+
 
 **Key Findings**
 
